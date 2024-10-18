@@ -1,0 +1,53 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .metrics-section, .recent-activities-section, .notifications-section {
+    margin-bottom: 40px;
+  }
+  
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .metric-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .metric-box h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .metric-box p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .activity-list, .notification-list {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* ul li {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+  } */
+  
